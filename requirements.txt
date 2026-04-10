@@ -1,0 +1,34 @@
+fastapi==0.111.0
+uvicorn==0.30.1
+
+# Core LLM / Orchestration
+langchain>=0.2.0
+langchain-core>=1.2.8
+langchain-google-genai>=4.2.1
+langchain-groq>=1.1.2
+
+# Core ML / embeddings
+torch==2.2.2
+sentence-transformers==2.7.0
+transformers==4.41.2
+numpy==1.26.4
+
+# Vector DB
+faiss-cpu==1.7.4
+
+# HTTP + utils
+httpx==0.27.0
+pydantic==2.7.1
+
+# Logging / async
+python-dotenv==1.0.1
+
+# LLM Providers (direct SDKs, no LangChain)
+groq==0.9.0
+google-generativeai==0.7.2
+
+# Optional (only if using Redis caching)
+redis==5.0.4
+
+aiofiles==23.2.1
+rank=bm25==0.2.0
